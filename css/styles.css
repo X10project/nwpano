@@ -41,7 +41,7 @@ img {
 /* ----------------------------------------------------------media queries */
 @media (min-width: 550px) {
 	.divider {
-		height: 200px;
+		height: 220px;
 	}
 }
 
