@@ -1,6 +1,48 @@
 body {
 	margin: 0;
+	font-family: 'Muli', sans-serif;
+}
+
+.container {
+	text-align: center;
+	background-image: radial-gradient(#aaa, #000);
 }
 img {
-	float: left;
+	display: block;
+	max-height: 650px;
+	max-width: 100%;
+	margin: 0 auto;
 }
+.img-background {
+	background-image: radial-gradient(#aaa, #000);
+}
+.divider {
+	height: 150px;
+	color: #eee;
+}
+.divider h3, h4 {
+	margin: 0;
+}
+.divider h3 {
+	padding-top: 45px;
+}
+
+/* ----------------------------------------------------------divider colors */
+.divider-a {
+	background-color: #339999;
+}
+.divider-b {
+	background-color: #336699;
+}
+.divider-c {
+	background-color: #CC6633;
+}
+
+/* ----------------------------------------------------------media queries */
+@media (min-width: 550px) {
+	.divider {
+		height: 200px;
+	}
+}
+
+
