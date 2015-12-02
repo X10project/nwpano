@@ -21,17 +21,29 @@ img {
 .divider h3 {
 	padding-top: 45px;
 }
+footer {
+	padding-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 75%;
+	color: #777;
+}
 
 /* ------------------------------------------------------------featherlight */
 .featherlight-next span, .featherlight-previous span {
 	font: initial;
-	font-size: 2em;
+	font-size: 1.75em;
 }
 
 /* ----------------------------------------------------------media queries */
 @media (min-width: 800px) {
 	.container {
-		font-size: 85%;
+		font-size: 75%;
+	}
+	footer {
+		padding-top: 50px;
+		margin-bottom: 50px;
+		font-size: 50%;
 	}
 	.divider {
 		height: 200px;
