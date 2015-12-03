@@ -1,5 +1,5 @@
 body {
-	margin: 0 5%;
+	margin: 0;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 nav	{
@@ -8,14 +8,16 @@ nav	{
 	color: #fff;
 	margin-bottom: 15px;
 	padding-top: 15px;
+	text-align: center;
+	font-weight: 700;
 }
 nav a {
 	color: #fff;
 	text-decoration: none;
-	margin-left: 5%;
 }
 .container {
 	text-align: center;
+	margin: 0 5%;
 }
 img {
 	display: block;
