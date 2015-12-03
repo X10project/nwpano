@@ -69,7 +69,7 @@ footer {
 }
 @media (min-width: 1000px) {
 	.container {
-		font-size: 90%;
+		font-size: 85%;
 	}
 	.divider {
 		height: 145px;
