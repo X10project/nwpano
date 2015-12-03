@@ -67,7 +67,7 @@ footer {
 }
 @media (min-width: 700px) {
 	nav {
-		height: 60px;
+		font-size: 65%;
 	}
 }
 @media (min-width: 800px) {
@@ -91,7 +91,7 @@ footer {
 		font-size: 65%;
 	}
 	nav {
-		height: 65px;
+		font-size: 50%;
 	}
 	.divider {
 		height: 125px;
