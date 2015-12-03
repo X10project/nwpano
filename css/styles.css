@@ -69,16 +69,16 @@ footer {
 }
 @media (min-width: 1000px) {
 	.container {
-		font-size: 100%;
+		font-size: 90%;
 	}
 	.divider {
-		height: 155px;
+		height: 145px;
 	}
 	.divider h3 {
 	padding-top: 15px;
 	}
 	footer {
-		font-size: 65%;
+		font-size: 60%;
 	}
 }
 
