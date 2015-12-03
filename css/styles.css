@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	font-family: 'Muli', sans-serif;
 }
-
 .container {
 	text-align: center;
 }
@@ -13,19 +12,20 @@ img {
 	margin: 0 auto;
 }
 .divider {
-	height: 150px;
+	height: 93px;
+	font-size: 80%;
 }
 .divider h3, h4 {
 	margin: 0;
 }
 .divider h3 {
-	padding-top: 45px;
+	padding-top: 25px;
 }
 footer {
-	padding-top: 25px;
-	margin-bottom: 25px;
+	padding-top: 15px;
+	margin-bottom: 20px;
 	text-align: center;
-	font-size: 75%;
+	font-size: 70%;
 	color: #777;
 }
 
@@ -33,20 +33,52 @@ footer {
 .featherlight-next span, .featherlight-previous span {
 	font: initial;
 	font-size: 1.75em;
+	padding-top: 10px;
 }
 
 /* ----------------------------------------------------------media queries */
-@media (min-width: 800px) {
-	.container {
-		font-size: 75%;
+@media (min-width: 399px) {
+	.divider {
+		height: 135px;
+		font-size: 100%;
+	}
+	.divider h3 {
+		padding-top: 40px;
 	}
 	footer {
-		padding-top: 50px;
-		margin-bottom: 50px;
-		font-size: 50%;
+		padding-top: 25px;
+		margin-bottom: 25px;
+		font-size: 75%;
+	}
+}
+@media (min-width: 800px) {
+	.container {
+		font-size: 70%;
 	}
 	.divider {
-		height: 200px;
+		height: 175px;
+	}
+	.divider h3 {
+	padding-top: 55px;
+	}
+	footer {
+		padding-top: 45px;
+		margin-bottom: 45px;
+		font-size: 50%;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		font-size: 55%;
+	}
+	.divider {
+		height: 180px;
+	}
+	.divider h3 {
+	padding-top: 55px;
+	}
+	footer {
+		font-size: 45%;
 	}
 }
 
