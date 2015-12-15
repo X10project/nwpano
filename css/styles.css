@@ -6,8 +6,8 @@ nav	{
 	height: 40px;
 	background: #000;
 	color: #fff;
-	margin-bottom: 15px;
-	padding-top: 15px;
+	margin-bottom: 25px;
+	padding-top: 10px;
 	padding-left: 5%;
 	font-weight: 700;
 }
@@ -26,7 +26,7 @@ img {
 	margin: 0 auto;
 }
 .divider {
-	height: 70px;
+	height: 95px;
 	font-size: 75%;
 }
 .divider h3, h4 {
@@ -36,10 +36,10 @@ img {
 	padding-top: 10px;
 }
 footer {
-	padding-top: 15px;
-	margin-bottom: 20px;
+	padding-top: 25px;
+	margin-bottom: 50px;
 	text-align: center;
-	font-size: 70%;
+	font-size: 90%;
 	color: #777;
 }
 
@@ -53,54 +53,35 @@ footer {
 /* ----------------------------------------------------------media queries */
 @media (min-width: 399px) {
 	.divider {
-		height: 80px;
+		height: 105px;
 		font-size: 85%;
 	}
 	.divider h3 {
 		padding-top: 10px;
 	}
-	footer {
-		padding-top: 25px;
-		margin-bottom: 25px;
-		font-size: 75%;
-	}
 }
 @media (min-width: 700px) {
-	nav {
-		font-size: 65%;
+	.divider {
+		height: 115px;
+		font-size: 95%;
 	}
 }
 @media (min-width: 800px) {
-	.container {
-		font-size: 95%;
-	}
 	.divider {
-		height: 115px;
+		height: 135px;
+		font-size: 100%;
 	}
 	.divider h3 {
-	padding-top: 15px;
-	}
-	footer {
-		padding-top: 45px;
-		margin-bottom: 45px;
-		font-size: 65%;
+		padding-top: 15px;
 	}
 }
 @media (min-width: 1000px) {
-	.container {
-		font-size: 65%;
-	}
-	nav {
-		font-size: 50%;
-	}
 	.divider {
-		height: 125px;
+		height: 150px;
+		font-size: 115%;
 	}
 	.divider h3 {
-	padding-top: 15px;
-	}
-	footer {
-		font-size: 50%;
+		padding-top: 15px;
 	}
 }
 
