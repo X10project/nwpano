@@ -4,7 +4,7 @@ body {
 }
 nav	{
 	height: 40px;
-	background: #000;
+	background: #111;
 	color: #fff;
 	margin-bottom: 20px;
 	padding-bottom: 7.5px;
@@ -26,6 +26,7 @@ img {
 	max-height: 650px;
 	max-width: 100%;
 	margin: 0 auto;
+	box-shadow: 5px 5px 7.5px #777;
 }
 .divider {
 	height: 95px;
@@ -35,14 +36,26 @@ img {
 	margin: 0;
 }
 .divider h3 {
-	padding-top: 10px;
+	padding-top: 15px;
+}
+footer, div.socicons {
+	text-align: center;
+	color: #777;
+}
+div.socicons {
+	padding-top: 50px;
+	font-size: 150%;
+}
+.socicons span {
+	padding-left: 4%;
+}
+.socicons span:first-child {
+	padding-left: 0;
 }
 footer {
-	padding-top: 25px;
+	padding-top: 30px;
 	margin-bottom: 50px;
-	text-align: center;
-	font-size: 95%;
-	color: #777;
+	font-size: 85%;
 }
 
 /* ----------------------------------------------------------media queries */
@@ -53,6 +66,12 @@ footer {
 	}
 	.divider h3 {
 		padding-top: 10px;
+	}
+	div.socicons {
+		font-size: 175%;
+	}
+	footer {
+		font-size: 90%;
 	}
 }
 @media (min-width: 700px) {
@@ -77,6 +96,18 @@ footer {
 	}
 	.divider h3 {
 		padding-top: 15px;
+	}
+	div.socicons {
+		font-size: 200%;
+	}
+	.socicons span {
+		padding-left: 5%;
+	}
+	.socicons span:first-child {
+		padding-left: 0;
+	}
+	footer {
+		font-size: 100%;
 	}
 }
 
