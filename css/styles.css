@@ -6,14 +6,16 @@ nav	{
 	height: 40px;
 	background: #000;
 	color: #fff;
-	margin-bottom: 25px;
-	padding-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 7.5px;
 	padding-left: 5%;
 	font-weight: 700;
 }
 nav a {
 	color: #fff;
 	text-decoration: none;
+	margin-top: 12.5px;
+	display: inline-block;
 }
 .container {
 	text-align: center;
@@ -39,15 +41,8 @@ footer {
 	padding-top: 25px;
 	margin-bottom: 50px;
 	text-align: center;
-	font-size: 90%;
+	font-size: 95%;
 	color: #777;
-}
-
-/* ------------------------------------------------------------featherlight */
-.featherlight-next span, .featherlight-previous span {
-	font: initial;
-	font-size: 1.75em;
-	padding-top: 10px;
 }
 
 /* ----------------------------------------------------------media queries */
