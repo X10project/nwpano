@@ -1,15 +1,15 @@
 body {
 	margin: 0;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 nav	{
 	height: 50px;
 	background: #111;
 	color: #fff;
 	margin-bottom: 20px;
-/*	padding-bottom: 7.5px;
-*/	padding-left: 5%;
+/*	padding-bottom: 7.5px; */
+	padding-left: 5%;
 	font-weight: 700;
     position: fixed;
     top: 0;
@@ -32,7 +32,6 @@ nav a, .navicons {
 .nav-up {
     top: -50px;
 }
-
 .container {
 	text-align: center;
 	margin: 20px 5%;
@@ -54,19 +53,18 @@ img {
 .divider h3 {
 	padding-top: 12.5px;
 }
-footer, div.socicons {
+p.contact-me {
+	text-align: center;
+	background-color: #eee;
+	color: #333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+footer, div.socicons, div.socicons a {
 	text-align: center;
 	color: #777;
+	text-decoration: none;
 }
-/*div.navicons {
-	text-align: right;
-	padding-right: 10%;
-
-}
-.navicons span {
-	padding-left: 2%;
-}*/
-
 div.socicons {
 	padding-top: 50px;
 	font-size: 150%;
@@ -76,6 +74,13 @@ div.socicons {
 }
 .socicons span:first-child {
 	padding-left: 0;
+}
+.navicons span a {
+	margin-top: 2.75px;
+}
+.socicons a:hover {
+	text-decoration: underline;
+	color: #000;
 }
 footer {
 	padding-top: 30px;
@@ -90,7 +95,7 @@ footer {
 		font-size: 85%;
 	}
 	.divider h3 {
-		padding-top: 22.5px;
+		padding-top: 17.5px;
 	}
 	div.socicons {
 		font-size: 175%;
