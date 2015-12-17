@@ -3,9 +3,16 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	padding-top: 50px;
 }
+a {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	color: inherit;
+}
 nav	{
 	height: 50px;
-	background: #111;
+	background: #000;
 	color: #fff;
 	margin-bottom: 20px;
 /*	padding-bottom: 7.5px; */
@@ -28,6 +35,9 @@ nav a, .navicons {
 }
 .navicons span {
 	padding-left: 10px;
+}
+.navicons span a {
+	margin-top: 2.75px;
 }
 .nav-up {
     top: -50px;
@@ -53,17 +63,16 @@ img {
 .divider h3 {
 	padding-top: 12.5px;
 }
-p.contact-me {
+p.contact {
 	text-align: center;
 	background-color: #eee;
-	color: #333;
+	color: #000;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 footer, div.socicons, div.socicons a {
 	text-align: center;
 	color: #777;
-	text-decoration: none;
 }
 div.socicons {
 	padding-top: 50px;
@@ -75,17 +84,35 @@ div.socicons {
 .socicons span:first-child {
 	padding-left: 0;
 }
-.navicons span a {
-	margin-top: 2.75px;
-}
-.socicons a:hover {
-	text-decoration: underline;
-	color: #000;
-}
 footer {
 	padding-top: 30px;
 	margin-bottom: 50px;
 	font-size: 85%;
+}
+
+/* ------------------------------------------------------------light switch */
+.icon-lightbulb {
+	display: block;
+	text-align: right;
+	font-size: 2.5em;
+	color: #777;
+	margin-right: 20px;
+}
+.icon-lightbulb:hover {
+	color: #000;
+	cursor: pointer;
+}
+.light-switch-body {
+	background-color: #333;
+	color: #eee;
+}
+.light-switch-nav {
+	background-color: #fff;
+	color: #000;
+}
+.light-switch-contact {
+	background-color: #777;
+	color: #000;
 }
 
 /* ----------------------------------------------------------media queries */
