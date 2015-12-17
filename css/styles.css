@@ -67,7 +67,7 @@ p.contact {
 	text-align: center;
 	background-color: #eee;
 	color: #000;
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-bottom: 15px;
 }
 footer, div.socicons, div.socicons a {
@@ -102,16 +102,15 @@ footer {
 	color: #000;
 	cursor: pointer;
 }
+.light-switch-icon-lightbulb:hover {
+	color: #eee;
+}
 .light-switch-body {
-	background-color: #333;
+	background-color: #111;
 	color: #eee;
 }
 .light-switch-nav {
 	background-color: #fff;
-	color: #000;
-}
-.light-switch-contact {
-	background-color: #777;
 	color: #000;
 }
 
