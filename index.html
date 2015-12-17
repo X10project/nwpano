@@ -10,6 +10,7 @@
 	<!-- core styles -->
 	<link rel="stylesheet" type="text/css" href="css/featherlight.min.css">
 	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- custom styles -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -248,12 +249,13 @@
 			<h4>Corbett, Oregon</h4>
 		</div><!-- end image group -->
 
-
 	</div><!-- end image container -->
 
-
+	<!-- light switch -->
+	<i class="icon-lightbulb"></i>
+	
 	<!-- contact me -->
-	<p class="contact-me">Please Contact for Pricing</p>
+	<a href="mailto:mearussi@gmail.com.com?Subject=PhotographyPricing%20Inquiry"><p class="contact">Please Contact for Pricing</p></a>
 
 	<div class="socicons">
 		<span class="socicon-twitter"></span>
@@ -271,6 +273,14 @@
 	<!-- featherlight -->
 	<script type="text/javascript" src="js/featherlight.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
+
+	<!-- light switch  -->
+	<script type="text/javascript">
+		$(".icon-lightbulb").on("click", function() {
+			$( "body" ).toggleClass(" light-switch-body ");
+			$( "nav, nav a, nav span, nav span a" ).toggleClass(" light-switch-nav ");
+		});
+	</script>
 
 </body>
 </html>
